@@ -10,6 +10,8 @@ See https://github.com/apacha/MobileMusicScoreClassifier for the mobile Android 
 # Building the application
 This application is a C#/Wpf application that requires Visual Studio to build.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/4715vyioa98eje0k?svg=true)](https://ci.appveyor.com/project/apacha/manualmusicscoreclassifier)
+
 ## Authors
 Alexander Pacha, Technical University of Vienna
 
