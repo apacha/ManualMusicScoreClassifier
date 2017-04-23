@@ -1,19 +1,22 @@
 # Manual Music Score Classifier
 
 This repository contains a small WPF application that is used for manually classifying small images into the categories "Scores" or "Other" and automatically shows you the next image after a user classification.
+It is part of a set of three tools:
 
+* **Model Trainer**: https://github.com/apacha/MusicScoreClassifier for the training of a classifier that uses Deep Learning to train a model to automatically classify images into scores or something else.
+* **Mobile App**: https://github.com/apacha/MobileMusicScoreClassifier for the mobile Android application that uses a trained model to perform real-time classification on a mobile device.
+* **Manual Classifier**: https://github.com/apacha/ManualMusicScoreClassifier for a small C#/WPF application that can be used manually classify images, used during evaluation.
 
-See https://github.com/apacha/MusicScoreClassifier for the automatic classifier that uses Deep Learning to achieve the same.
+|Model Trainer|Mobile App|Manual Classifier|
+|:----:|:-----:|:-----:|
+|[![Build Status](https://travis-ci.org/apacha/MusicScoreClassifier.svg?branch=master)](https://travis-ci.org/apacha/MusicScoreClassifier)|[![Build Status](https://travis-ci.org/apacha/MobileMusicScoreClassifier.svg?branch=master)](https://travis-ci.org/apacha/MobileMusicScoreClassifier)|[![Build status](https://ci.appveyor.com/api/projects/status/4715vyioa98eje0k?svg=true)](https://ci.appveyor.com/project/apacha/manualmusicscoreclassifier)|
 
-See https://github.com/apacha/MobileMusicScoreClassifier for the mobile Android application that uses a trained model to perform real-time classification on a mobile device.
 
 # Building the application
 This application is a C#/Wpf application that requires Visual Studio to build.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/4715vyioa98eje0k?svg=true)](https://ci.appveyor.com/project/apacha/manualmusicscoreclassifier)
-
 ## Authors
-Alexander Pacha, Technical University of Vienna
+Alexander Pacha, TU Wien
 
 ## License
 
