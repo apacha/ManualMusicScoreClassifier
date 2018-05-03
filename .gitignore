@@ -203,3 +203,5 @@ FakesAssemblies/
 
 # Xamarin Components (will be restored like nuget packages)
 Components
+/entire_dataset_128x128/
+/entire_dataset_256x256/
